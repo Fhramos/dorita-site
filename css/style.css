@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+/**** background ****/
+
+
+h1, h2, h3 { 
+font-family: "Open Sans", "sans serif"; 
+}
+
+a {  text-decoration: none;  color: black;}
+
+
+/* ** NAV ** */
+nav {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background: rgba(255, 255, 254, 0.5);
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
+nav a {
+  padding: 0 32px;
+  transition: 0.4s;
+  text-decoration: none;
+  color: black;
+}
+
+nav a {  
+padding: 0 32px;
+transition: text-shadow 0.3s ease-in;
+}
+nav a:hover {
+text-shadow: 0.4px 0.4px;
+}
+
+.aktiv {  
+text-shadow: 0.2px 0.2px;  
+color:rgb(2, 44, 2);
+}
+
+#menu-icon {
+font-size: 28px;
+color: black;
+display:none ;
+}
+/* ***** BAND ******** */
+.band {
+  min-height: 220px;
+}
+
+/* ***** CONTENT ***** */
+
+
+/* HOME*/
+.título {
+position: absolute;
+bottom: 15%;
+left: 2%;
+color: black;
+}
+.título h1, p {  margin:0;padding:0}  
+.título h1 { font-size:3.7rem;}            
+.título p {font-size:1.8rem; font-weight: bold;}
+
+/*LESITUNGEN*/
+.content {
+  background-color: rgba(255, 255, 254, 0.7);
+  padding: 4rem 2rem;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.content_especs ul {
+ line-height: 1.4;
+ font-size: 1.2rem;
+}
+.content_especs img {
+  clip-path: circle();
+  
+}
+
+
+.grilla3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  
+}
+
+/* ***** FOOTER ****** */
+
+footer { 
+position: fixed;
+bottom: 0;
+left:0;
+width: 100%;
+background-color:rgba(255, 255, 254, 0.500);
+font-size: 1rem;
+text-align: right;
+padding:1rem;
+}
+footer p {
+padding-right: 1rem;
+font-weight:bold;
+}
+/****************************************************************************************/
+
+  
+  
